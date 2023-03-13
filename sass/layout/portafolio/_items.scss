@@ -48,12 +48,11 @@
     padding: 6px 24px;
     margin: 0;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.menu-botones-portafolio:hover{
+    &:hover{
     font-family: "Roboto";
     font-weight: 500;
-        font-size: 16px;
+    font-size: 16px;
     background: var(--brand-color);
     border-radius: 4px;
     padding: 0 1% ;
@@ -61,9 +60,9 @@
     padding: 6px 24px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-}
+    }
 
-.menu-botones-portafolio:focus{
+    &:focus{
     font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
@@ -75,6 +74,7 @@
     outline: none;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    }
 }
 
 /* TARJETAS INFORMATIVAS */
@@ -110,17 +110,17 @@
     /* width: 370px; */
     /* height: 404px; */
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.li-tarjetas-services:hover{
+    &:hover{
     cursor: pointer;
     border: 1px solid #EEEEEE;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);    
+    }
 
-.li-tarjetas-services:focus{
+    &:focus{
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
 }
 
 .link-tarjetas-services{

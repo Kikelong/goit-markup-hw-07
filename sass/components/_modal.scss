@@ -49,22 +49,23 @@ position: fixed;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background: #ffffff;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.button-modal-close:hover{
-    cursor: pointer;
+    &:hover {
+        cursor: pointer;
     fill: var(--brand-color);
+    }
+
+    &:focus{
+        fill: var(--brand-color);
+    outline: var(--brand-color)  solid 1px; 
+    }
+
+    &:active{
+        fill: black;
+    outline: var(--brand-color)  solid 1px; 
+    }
 }
 
-.button-modal-close:focus{
-    fill: var(--brand-color);
-    outline: var(--brand-color)  solid 1px; 
-}
-
-.button-modal-close:active{
-    fill: black;
-    outline: var(--brand-color)  solid 1px; 
-}
 
 
 .ul-formulario-ventana-modal{
@@ -132,22 +133,22 @@ position: fixed;
     align-items: center;
     letter-spacing: 0.03em;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.entrada-formulario-ventana-modal:hover{
-    border: 1px solid var(--brand-color);
-}
+    &:hover{
+        border: 1px solid var(--brand-color);
+    }
 
-.entrada-formulario-ventana-modal:hover + .container-icons-svg-formulario-ventana-modal{
-    fill: var(--brand-color);
-}
+    &:hover + .container-icons-svg-formulario-ventana-modal{
+        fill: var(--brand-color);
+    }
 
-.entrada-formulario-ventana-modal:focus + .container-icons-svg-formulario-ventana-modal{
-    fill: var(--brand-color);
-}
+    &:focus{
+        outline: var(--brand-color) solid 1px;
+    }
 
-.entrada-formulario-ventana-modal:focus{
-    outline: var(--brand-color) solid 1px;
+    &:focus + .container-icons-svg-formulario-ventana-modal{
+        fill: var(--brand-color);
+    }
 }
 
 #entrada-formulario-ventana-modal-comentarios{
@@ -165,25 +166,25 @@ position: fixed;
     align-items: center;
     letter-spacing: 0.03em;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-#entrada-formulario-ventana-modal-comentarios:hover{
-    border: 1px solid var(--brand-color);
-}
+    &:hover{
+        border: 1px solid var(--brand-color);
+    }
 
-#entrada-formulario-ventana-modal-comentarios:focus{
-    outline: var(--brand-color) solid 1px;
-}
+    &:focus{
+        outline: var(--brand-color) solid 1px;
+    }
 
-#entrada-formulario-ventana-modal-comentarios::placeholder {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.01em;
-    padding: 3px;
-}
+    &::placeholder{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        padding: 3px;
+    }
+
 
 .ul-checkbox{
     padding: 0;
@@ -196,6 +197,10 @@ position: fixed;
     justify-content: center;
     display: flex;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 .terminos-condiciones-checkbox{
@@ -207,10 +212,6 @@ position: fixed;
     margin-right: 7px;
     margin-top: 4px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.label-checkbox:hover{
-    cursor: pointer;
 }
 
 .texto-checkbox{
@@ -245,14 +246,14 @@ position: fixed;
     padding: 0;
     margin-top: 10px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:active{
+        color: #ffffff;
+    }
 }
 
 .boton-enviar-formulario-ventana-modal:focus, .boton-enviar-formulario-ventana-modal:hover{
     color: var(--button-color);
-}
-
-.boton-enviar-formulario-ventana-modal:active{
-    color: #ffffff;
 }
 
 .container-icons-svg-formulario-ventana-modal{

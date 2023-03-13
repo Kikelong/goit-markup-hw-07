@@ -105,15 +105,14 @@
     color: var(--brand-color);
     position: relative;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.estudio-header:focus{
-    color:var(--brand-color);
-}
+    &:focus{
+        color:var(--brand-color);
+    }
 
-.estudio-header:hover{
-    color: var(--brand-color);
-
+    &:hover{
+        color: var(--brand-color);
+    }
 }
 
 .icon-header{
@@ -130,20 +129,15 @@
 
     color: var(--text-color);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus{
+        color:var(--brand-color);
+    }
+
+    &:hover{
+        color: var(--brand-color);
+    }
 }
-
-.estudio-header-index:focus{
-    color:var(--brand-color);
-}
-
-.estudio-header-index:hover{
-    color: var(--brand-color);
-
-}
-
-
-
-
 
 /* PESTAÑAS PORTAFOLIO */
 
@@ -155,16 +149,14 @@
     font-size: 14px;
     color: var(--text-color);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.portafolio-header:focus{
-    color: var(--brand-color);
-}
+    &:focus{
+        color: var(--brand-color);
+    }
 
-.portafolio-header:hover{
-    color:var(--brand-color);
-
-
+    &:hover{
+        color:var(--brand-color);
+    }
 }
 
 .portafolio-header-portafolio{
@@ -178,8 +170,6 @@
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
 /* PESTAÑAS CONTACTOS */
 
 .contactos-header{
@@ -190,17 +180,15 @@
     font-size: 14px;
     color: var(--text-color);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus{
+        color:var(--brand-color);
+    }
+
+    &:hover{
+        color:var(--brand-color);
+    }
 }
-
-.contactos-header:focus{
-    color:var(--brand-color);
-}
-
-.contactos-header:hover{
-    color:var(--brand-color);
-
-}
-
 
 /* PESTAÑAS CORREO Y NUMERO */
 
@@ -218,11 +206,10 @@
     margin: auto;
     line-height: 1.7142em;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.correo-header:focus{
+    &:focus{
     color:var(--brand-color);
-        font-weight: 500;
+    font-weight: 500;
     font-size: 14px;
     text-decoration:none;
     font-family: 'Roboto';
@@ -234,11 +221,11 @@
     margin: auto;
     line-height: 1.7142em;
     fill: var(--brand-color);
-}
+    }
 
-.correo-header:hover{
+    &:hover{
     color:var(--brand-color);
-        font-weight: 500;
+    font-weight: 500;
     font-size: 14px;
     text-decoration:none;
     font-family: 'Roboto';
@@ -249,6 +236,7 @@
     list-style: none;
     margin: auto;
     line-height: 1.7142em;
+    }
 }
 
 .icon-header{
@@ -276,13 +264,13 @@
     margin: auto;
     line-height: 1.7142em;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.numero-header:focus{
+    &:focus{
     color:var(--brand-color);
-}
+    }
 
-.numero-header:hover{
+    &:hover{
     color:var(--brand-color);
     font-weight: 500;
+    }
 }

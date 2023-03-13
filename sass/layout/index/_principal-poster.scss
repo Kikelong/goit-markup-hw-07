@@ -46,14 +46,15 @@
     line-height: 180%;
     margin:0;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus, &:hover{
+        color: var(--button-color);
+    }
+
+    &:active{
+        color: #ffffff;
+    }
 }
 
-.boton:focus, .boton:hover{
-    color: var(--button-color);
-}
-
-.boton:active{
-    color: #ffffff;
-}
 
 

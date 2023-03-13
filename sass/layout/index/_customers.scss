@@ -29,14 +29,13 @@
     padding: 0;
     display: flex;
     justify-content:  center;
-}
 
-.li-fichas-clientes:hover{
-    fill:var(--brand-color);
+    &:hover{
+        fill:var(--brand-color);
+    }
 }
 
 .subcontainer-svg-clientes{
-        /* padding: 17px 65px; */
 
     display: flex;
     align-items: center;
@@ -46,6 +45,12 @@
     margin-right: 30px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+
+    &:hover{
+        border: 1px solid var(--brand-color);
+    border-radius: 4px;
+    cursor: pointer;
+    }
 }
 
 .svg-fichas-clientes{
@@ -54,20 +59,14 @@
     width: 170px;
     height: 81px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover{
+        fill:var(--brand-color);    
+    }
 }
 
 .ul-fichas-clientes > .svg-fichas-clientes:last-child{
     margin-right: 0;
-}
-
-.svg-fichas-clientes:hover{
-    fill:var(--brand-color);    
-}
-
-.subcontainer-svg-clientes:hover{
-    border: 1px solid var(--brand-color);
-    border-radius: 4px;
-    cursor: pointer;
 }
 
 .link-fichas-clientes:focus .svg-fichas-clientes{
